@@ -1,0 +1,156 @@
+.header {
+  display: flex;
+}
+.form {
+  display: flex;
+}
+.DropDown {
+width: 300px;
+height: 50px;
+float: left;
+padding: 10px 0 0 10px;
+}
+.DropDown:hover {
+  color: darkorange;
+}
+
+.dropdown-alif:hover {
+  color: darkorange;
+}
+.Rcomponent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div>.Arr {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+h6:hover {
+  color: darkorange;
+  cursor: pointer;
+}
+.link-footer, .link-render {
+  text-decoration-line: none;
+}
+div>a, h6:hover {
+  color: darkorange;
+}
+div>.product  {
+  display: flex;
+  flex-direction: column;
+}
+.footer-icons {
+  display: flex;
+}
+.footer-section {
+  width: 1200px;
+  border-bottom: 2px solid rgb(101, 99, 99);
+}
+div>.submit:hover {
+  color: darkorange;
+}
+div>.link-render:hover {
+  color: darkorange;
+}
+.inputSearch {
+  width: 800px;
+}
+div>.category {
+  display: flex;
+  flex-wrap: wrap;
+}
+div>.cards {
+ display: flex;
+ flex-direction: column;
+}
+span>.linkcard {
+  text-decoration-line: none;
+  color: black;
+}
+div>.linkcard:hover {
+  color: darkorange;
+}
+.phones {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+button>.linkbtn {
+  text-decoration-line: none;
+  color: black;
+}
+button>.linkbtn:hover {
+  color: white;
+}
+.slide {
+  text-align: center;
+}
+
+.catalog {
+  display: flex;
+  /* flex-direction: ; */
+  margin: 20px 0 20px 40px;
+
+}
+input {
+  width: 300px;
+  margin-top: 50px;
+}
+.submitbtn {
+  width: 80px;
+  border: aqua;
+  border-radius: 5px;
+  background-color: cyan;
+  
+}
+.links{
+  text-decoration-line: none;
+  color: rgb(253, 249, 249);
+  margin: 3px 10px 3px 10px;
+}
+.links:hover {
+  color: orange;
+}
+div>.menu {
+  background-color: rgb(136, 139, 139);
+  display: flex;
+  color: aliceblue;  
+}
+.product {
+  text-decoration-line: none;
+  margin: 10px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardbtn {
+  border: none;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: rgb(250, 250, 250);
+}
+.cardbtn:hover {
+color: darkorange;
+}
+.logoff {
+  border: 2px solid rgb(81, 123, 168);
+  margin-left: 200px; 
+  background: linear-gradient(90deg, rgba(13, 88, 149, 0.673) 0%, rgba(18, 58, 150, 0.844) 35%, rgba(93, 157, 186, 0.474) 95%);
+  border-radius: 3px;
+  color: aliceblue;
+  padding: 2px 20px 2px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all .4s ease;
+
+}
+.logoff:hover {
+  margin-left: 200px; 
+  background: linear-gradient(90deg, rgba(149, 13, 119, 0.6730042358740371) 0%, rgba(229, 128, 145, 0.8438725832129726) 35%, rgba(196, 0, 255, 0.4741246840533089) 95%);
+  color: rgb(196, 204, 213);
+  transform: scale(1.05);
+}

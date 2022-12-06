@@ -1,0 +1,79 @@
+.todoInputAdd {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+.todoAddBtn {
+    margin-left: 12px; 
+    background: linear-gradient(90deg, rgba(149, 13, 119, 0.6730042358740371) 0%, rgba(229, 128, 145, 0.8438725832129726) 35%, rgba(196, 0, 255, 0.4741246840533089) 95%);
+}
+
+.todolist {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 24px;
+    height: 90px;
+    border-radius: 6px;
+    color: #f8f8f8d7;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 15px;
+    background: linear-gradient(90deg, rgba(149, 13, 119, 0.6730042358740371) 0%, rgba(229, 128, 145, 0.8438725832129726) 35%, rgba(196, 0, 255, 0.4741246840533089) 95%);
+    border-radius: 6px;
+    /* flex-wrap: wrap; */
+}
+
+.close {
+    color: rgb(43, 45, 44);
+    text-decoration: line-through;
+}
+.todo-date {
+	margin-top: 10px;
+	min-width: 100%;
+	font-size: 13px;
+}
+
+.todo-date span {
+	color: rgb(200, 187, 8);
+	margin-left: 5px;
+}
+
+.react-date-picker__inputGroup,.react-date-picker__clear-button {
+	display: none;
+}
+
+.react-date-picker {
+	min-height: 30px;
+}
+.inputs-todo {
+    width: 600px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: auto;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(13, 126, 149, 0.673) 0%, #d58ad3d7 35%, rgba(0, 149, 255, 0.474) 95%);
+}
+.date-todo {
+    margin-left: 10px;
+    width: 200px;
+    padding-left: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.h1-todo {
+    background: linear-gradient(90deg, rgba(62, 7, 50, 0.673) 0%, rgba(201, 10, 42, 0.844) 35%, rgba(73, 5, 94, 0.474) 95%);
+    height: 90px;
+    border-radius: 8px;
+}
+.date-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.btn-close {
+border: 2px solid rgb(30, 29, 29);
+background-color:white;
+padding: 10px;
+}

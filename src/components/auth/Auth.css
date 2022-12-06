@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(216, 140, 127);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3-KkNyktUDf1hmUe5HxzHsMGZRrmdLMNnnA&usqp=CAU');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.loginPage {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 150px;
+   color: rgb(241, 178, 19);
+}
+.form-list {
+	background: rgba(132, 132, 130, 0.474);
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	margin: 0 auto;
+	padding: 20px 50px 20px 50px;
+	border-radius: 55px;
+	position: relative;
+}
+
+.auth-logo {
+	width: 8em;
+	height: 8em;
+	position: absolute;
+	top: -110px;
+	left: 170px;
+	background: rgba(197, 203, 207, 0.474);
+	border-radius: 80%;
+	transition: all .4s ease;
+
+ }
+
+.input {
+	background-color: rgb(242, 249, 249);
+	transition: all .4s ease;
+
+}
+.input::placeholder {
+	color: rgb(19, 18, 18);
+}
+.input:hover,.auth-logo:hover {
+	transform: scale(1.05);
+
+}
+
+.button {
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 900;
+	transition: all .4s ease;
+}
+
+.button:hover {
+	color: rgb(255, 197, 6);
+	transform: scale(1.05);
+}
